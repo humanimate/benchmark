@@ -1,0 +1,37 @@
+pretrained_model_path: "checkpoints/SD_v1_5_freshDown"
+output_dir: "outputs/"
+controlnet_path: "./checkpoints/controlNet_v0_openPose"
+prefix: debug 
+cond_weight: 1.0
+cond_type: "openpose"
+video_config:
+  n_sample_frames: 51 # 
+  width: 512
+  height: 512
+  sample_start_idx: 0
+  sample_frame_rate: 0
+
+validation_data:
+  prompts:
+  - A man gets up and sits back on a chair in a park.
+  whole_conds: "" # "./data/standUpAndSit_8.npy" #./data/penguins/whole_canny_24.pt # if condition is preserved, you can put path here to save time
+  whole_conds_video_path: # ./data/penguins/panguin.mp4 # condition video
+  random: False
+  constant: 
+  video_length: 51 # 
+  width: 512
+  height: 512
+  num_inference_steps: 50
+  guidance_scale: 12.5
+  use_inv_latent: False
+  num_inv_steps: 50
+  inv_video_path: 
+  fix_image_noise: 1.
+  controlnet_inv_noise: True
+  conrtolnet_inv_noise_idx: 50
+  inv_video_prompt: ""
+
+seed: 33
+mixed_precision: fp16
+gradient_checkpointing: True
+enable_xformers_memory_efficient_attention: True
