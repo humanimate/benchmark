@@ -1,7 +1,7 @@
-
-
-
 # Text2Video-Zero
+<h1>
+      This version includes the HumAnimate benchmark loader and config to evaluate ConditionVideo. Please follow the below steps to setup the environment before submitting this for full benchmark evaluation.
+</h1>
 
 This repository is the official implementation of [Text2Video-Zero](https://arxiv.org/abs/2303.13439).
 

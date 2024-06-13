@@ -1,5 +1,8 @@
 <div align="center">
 <h2><font color="red"> 🕺🕺🕺 Follow Your Pose 💃💃💃 </font></center> <br> <center>Pose-Guided Text-to-Video Generation using Pose-Free Videos</h2>
+<h1>
+  This version includes the HumAnimate benchmark loader and config to evaluate ConditionVideo. Please follow the below steps to setup the environment before submitting this for full benchmark evaluation.
+</h1>
 
 [Yue Ma*](https://mayuelala.github.io/), [Yingqing He*](https://github.com/YingqingHe), [Xiaodong Cun](http://vinthony.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN), and [Qifeng Chen](https://cqf.io)
 
