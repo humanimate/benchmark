@@ -1,0 +1,15 @@
+seed: 0
+guidance_scale: 12.5
+
+data_path: "../data/"
+save_path: "ContVid_inferences"
+
+pose_vid_dir: "pose_sequences"
+codebook_dir: "codebooks"
+
+codebook_name: "TextPoseBench_codebook__openpose_keypose.csv"
+
+num_chunks: -1
+chunk_index: 0
+
+gpu_id: 0
